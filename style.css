@@ -1,0 +1,208 @@
+*{
+    margin : 0;
+    padding :0;
+}
+/* CSS Variables */
+:root{
+    --navbar-height :59px;
+}
+/* Heading 1*/
+
+.start{background-color: rgb(16, 16, 101);
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+ } 
+.p1{
+    color: white;
+   margin: 12px 23px;
+
+}
+.btn{
+    background-color: rgb(99, 99, 255);
+    color: white;
+    border-radius: 7px;
+    margin: 8px -11px ;
+} 
+.btn:hover{
+    background-color: rgb(239, 241, 245);
+    color: rgb(43, 145, 179);
+   
+}
+/* Navigation bar  */
+#navbar{
+
+    position: relative;
+}
+#navbar{
+    display :flex;
+    align-items: center;
+    
+
+}
+.n2{
+    display: flex;
+}
+.toggle-button{
+    background-color: white;
+    position: absolute;
+    height:23px;
+    top:1.75rem;
+    margin-right: 230px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:21px;
+    border-radius: 20px;
+
+}
+.toggle-button .bar{
+    height:3px;
+    width:100%;
+    background-color: rgb(124, 131, 229);
+    border-radius: 10px;
+
+}
+
+
+/* navigation bar: logo and image  */
+#logo{
+    
+    margin : 25px 55px;
+
+}
+#logo img{
+    height :43px;
+    margin :4px 4px;
+
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"";
+    background-color: white;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.4;
+
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display:block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+} 
+#navbar ul li a:hover{
+    color: rgb(223, 184, 174);
+    background-color: white;
+   
+} 
+.list2{
+    margin-left:188px;
+}
+.b1{
+    border-radius: 7px;
+}
+.item2{
+    position: relative;
+    margin-right: 0px ;
+    padding:8px 12px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+.btn2{
+    background-color: rgb(99, 99, 255);
+    color: white;
+    border-radius:7px;
+    padding:7px 8px;
+} 
+.btn2:hover{
+    background-color: rgb(239, 241, 245);
+    color: rgb(43, 145, 179);
+   
+}
+
+
+/* <---------------------------section part   ---------------------->*/
+
+#home{
+    display: flex;
+    /* flex-direction:column; */
+    padding: 3px 200px;
+    justify-content: center; 
+    align-items: centre;
+}
+#home::before{
+    content:"";
+    /* background-color:aliceblue; */
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+#image img{
+    display: flex;
+    
+    padding: 0px;
+    width: 325%;
+    margin: 71px -56px;
+    text-align: left;
+    justify-content: left;
+    height: 75%;
+}
+.h-primary{
+    display: flex;
+    margin-top:120px;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: left;
+    
+    padding:24px;
+     font-size:1.5rem; 
+    font-family: 'Roboto', sans-serif;
+
+}
+.para{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    /* padding: 0px 10px; */
+    margin:3px 0px;
+    margin-top:1px;
+    margin-left: 526px;
+    font-size: 1.2rem;
+    font-family: 'Anek Malayalam', sans-serif;
+
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 13px 19px;
+    margin:3px 0px;
+    margin-top:21px;
+    margin-left: 528px;
+    
+    background-color: rgb(99, 99, 255);
+    color: white;
+    border-radius:7px;
+    
+}
+ 
